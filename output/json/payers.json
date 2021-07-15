@@ -1,0 +1,1205 @@
+{
+    "analysis": {
+        "title": "payers.csv",
+        "date_start": "2021-07-15 15:57:46.368185",
+        "date_end": "2021-07-15 15:57:46.500826",
+        "duration": "0:00:00.132641"
+    },
+    "table": {
+        "n": 2,
+        "n_var": 21,
+        "memory_size": 464,
+        "record_size": 232.0,
+        "n_cells_missing": 6,
+        "n_vars_with_missing": 6,
+        "n_vars_all_missing": 0,
+        "p_cells_missing": 0.14285714285714285,
+        "types": {
+            "Categorical": 6,
+            "Numeric": 15
+        }
+    },
+    "variables": {
+        "Id": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "329794ac-8260-3252-90dd-cc5284fe15b9": 1,
+                "b1c428d6-4f07-31e0-90f0-68ffa6ff8c76": 1
+            },
+            "value_counts_index_sorted": {
+                "329794ac-8260-3252-90dd-cc5284fe15b9": 1,
+                "b1c428d6-4f07-31e0-90f0-68ffa6ff8c76": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    0,
+                    2
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.0,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "329794ac-8260-3252-90dd-cc5284fe15b9",
+                "1": "b1c428d6-4f07-31e0-90f0-68ffa6ff8c76"
+            }
+        },
+        "NAME": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "National Health Service": 1,
+                "NO_INSURANCE": 1
+            },
+            "value_counts_index_sorted": {
+                "NO_INSURANCE": 1,
+                "National Health Service": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    0,
+                    2
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.0,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "National Health Service",
+                "1": "NO_INSURANCE"
+            }
+        },
+        "ADDRESS": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "Richmond House 79 Whitehall": 1
+            },
+            "value_counts_index_sorted": {
+                "Richmond House 79 Whitehall": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "Richmond House 79 Whitehall"
+            },
+            "mode": "Richmond House 79 Whitehall"
+        },
+        "CITY": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "Westminster": 1
+            },
+            "value_counts_index_sorted": {
+                "Westminster": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "Westminster"
+            },
+            "mode": "Westminster"
+        },
+        "STATE_HEADQUARTERED": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "Greater London": 1
+            },
+            "value_counts_index_sorted": {
+                "Greater London": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "Greater London"
+            },
+            "mode": "Greater London"
+        },
+        "ZIP": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Categorical",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "SW1A 2NS": 1
+            },
+            "value_counts_index_sorted": {
+                "SW1A 2NS": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "histogram_frequencies": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    0.5,
+                    1.5
+                ]
+            },
+            "first_rows": {
+                "0": "SW1A 2NS"
+            },
+            "mode": "SW1A 2NS"
+        },
+        "PHONE": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "111.0": 1
+            },
+            "value_counts_index_sorted": {
+                "111.0": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "n_zeros": 0,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 111.0,
+            "std": NaN,
+            "variance": NaN,
+            "min": 111.0,
+            "max": 111.0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 111.0,
+            "mad": 0.0,
+            "range": 0.0,
+            "5%": 111.0,
+            "25%": 111.0,
+            "50%": 111.0,
+            "75%": 111.0,
+            "95%": 111.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 0.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": true,
+            "monotonic_decrease_strict": true,
+            "monotonic": 2,
+            "histogram": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    110.5,
+                    111.5
+                ]
+            },
+            "mode": 111.0
+        },
+        "AMOUNT_COVERED": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "275162883.41": 1,
+                "0.0": 1
+            },
+            "value_counts_index_sorted": {
+                "0.0": 1,
+                "275162883.41": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 137581441.705,
+            "std": 194569540.79005438,
+            "variance": 3.785730620325263e+16,
+            "min": 0.0,
+            "max": 275162883.41,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 275162883.41,
+            "mad": 137581441.705,
+            "range": 275162883.41,
+            "5%": 13758144.170500003,
+            "25%": 68790720.8525,
+            "50%": 137581441.705,
+            "75%": 206372162.5575,
+            "95%": 261404739.23950002,
+            "iqr": 137581441.70499998,
+            "cv": 1.4142135623730951,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    137581441.705,
+                    275162883.41
+                ]
+            }
+        },
+        "AMOUNT_UNCOVERED": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0.0": 2
+            },
+            "value_counts_index_sorted": {
+                "0.0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0.0,
+            "mad": 0.0,
+            "range": 0.0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0.0
+        },
+        "REVENUE": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0.0": 2
+            },
+            "value_counts_index_sorted": {
+                "0.0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0.0,
+            "mad": 0.0,
+            "range": 0.0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0.0
+        },
+        "COVERED_ENCOUNTERS": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "67680": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "67680": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 33840.0,
+            "std": 47856.986950705534,
+            "variance": 2290291200.0,
+            "min": 0,
+            "max": 67680,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 67680,
+            "mad": 33840.0,
+            "range": 67680,
+            "5%": 3384.0,
+            "25%": 16920.0,
+            "50%": 33840.0,
+            "75%": 50760.0,
+            "95%": 64296.0,
+            "iqr": 33840.0,
+            "cv": 1.414213562373095,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    33840.0,
+                    67680.0
+                ]
+            }
+        },
+        "UNCOVERED_ENCOUNTERS": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0": 2
+            },
+            "value_counts_index_sorted": {
+                "0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0,
+            "max": 0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0,
+            "mad": 0.0,
+            "range": 0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0
+        },
+        "COVERED_MEDICATIONS": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "22675": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "22675": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 11337.5,
+            "std": 16033.646263404966,
+            "variance": 257077812.5,
+            "min": 0,
+            "max": 22675,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 22675,
+            "mad": 11337.5,
+            "range": 22675,
+            "5%": 1133.75,
+            "25%": 5668.75,
+            "50%": 11337.5,
+            "75%": 17006.25,
+            "95%": 21541.25,
+            "iqr": 11337.5,
+            "cv": 1.4142135623730951,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    11337.5,
+                    22675.0
+                ]
+            }
+        },
+        "UNCOVERED_MEDICATIONS": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0": 2
+            },
+            "value_counts_index_sorted": {
+                "0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0,
+            "max": 0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0,
+            "mad": 0.0,
+            "range": 0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0
+        },
+        "COVERED_PROCEDURES": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "74511": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "74511": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 37255.5,
+            "std": 52687.23337299084,
+            "variance": 2775944560.5,
+            "min": 0,
+            "max": 74511,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 74511,
+            "mad": 37255.5,
+            "range": 74511,
+            "5%": 3725.55,
+            "25%": 18627.75,
+            "50%": 37255.5,
+            "75%": 55883.25,
+            "95%": 70785.45,
+            "iqr": 37255.5,
+            "cv": 1.4142135623730951,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    37255.5,
+                    74511.0
+                ]
+            }
+        },
+        "UNCOVERED_PROCEDURES": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0": 2
+            },
+            "value_counts_index_sorted": {
+                "0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0,
+            "max": 0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0,
+            "mad": 0.0,
+            "range": 0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0
+        },
+        "COVERED_IMMUNIZATIONS": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "27792": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "27792": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 13896.0,
+            "std": 19651.91166273653,
+            "variance": 386197632.0,
+            "min": 0,
+            "max": 27792,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 27792,
+            "mad": 13896.0,
+            "range": 27792,
+            "5%": 1389.6000000000001,
+            "25%": 6948.0,
+            "50%": 13896.0,
+            "75%": 20844.0,
+            "95%": 26402.399999999998,
+            "iqr": 13896.0,
+            "cv": 1.4142135623730951,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    13896.0,
+                    27792.0
+                ]
+            }
+        },
+        "UNCOVERED_IMMUNIZATIONS": {
+            "n_distinct": 1,
+            "p_distinct": 0.5,
+            "is_unique": false,
+            "n_unique": 0,
+            "p_unique": 0.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0": 2
+            },
+            "value_counts_index_sorted": {
+                "0": 2
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 2,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.0,
+            "std": 0.0,
+            "variance": 0.0,
+            "min": 0,
+            "max": 0,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0,
+            "mad": 0.0,
+            "range": 0,
+            "5%": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "95%": 0.0,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 1.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": false,
+            "monotonic": 1,
+            "histogram": {
+                "counts": [
+                    2
+                ],
+                "bin_edges": [
+                    -0.5,
+                    0.5
+                ]
+            },
+            "mode": 0
+        },
+        "UNIQUE_CUSTOMERS": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "569": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "569": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 284.5,
+            "std": 402.34375849514555,
+            "variance": 161880.5,
+            "min": 0,
+            "max": 569,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 569,
+            "mad": 284.5,
+            "range": 569,
+            "5%": 28.450000000000003,
+            "25%": 142.25,
+            "50%": 284.5,
+            "75%": 426.75,
+            "95%": 540.55,
+            "iqr": 284.5,
+            "cv": 1.4142135623730951,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    284.5,
+                    569.0
+                ]
+            }
+        },
+        "QOLS_AVG": {
+            "n_distinct": 1,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 1,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "0.8722756417379637": 1
+            },
+            "value_counts_index_sorted": {
+                "0.8722756417379637": 1
+            },
+            "ordering": true,
+            "n_missing": 1,
+            "n": 2,
+            "p_missing": 0.5,
+            "count": 1,
+            "memory_size": 144,
+            "n_zeros": 0,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 0.8722756417379637,
+            "std": NaN,
+            "variance": NaN,
+            "min": 0.8722756417379637,
+            "max": 0.8722756417379637,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 0.8722756417379637,
+            "mad": 0.0,
+            "range": 0.0,
+            "5%": 0.8722756417379637,
+            "25%": 0.8722756417379637,
+            "50%": 0.8722756417379637,
+            "75%": 0.8722756417379637,
+            "95%": 0.8722756417379637,
+            "iqr": 0.0,
+            "cv": NaN,
+            "p_zeros": 0.0,
+            "p_infinite": 0.0,
+            "monotonic_increase": true,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": true,
+            "monotonic_decrease_strict": true,
+            "monotonic": 2,
+            "histogram": {
+                "counts": [
+                    1
+                ],
+                "bin_edges": [
+                    0.3722756417379637,
+                    1.3722756417379638
+                ]
+            },
+            "mode": 0.8722756417379637
+        },
+        "MEMBER_MONTHS": {
+            "n_distinct": 2,
+            "p_distinct": 1.0,
+            "is_unique": true,
+            "n_unique": 2,
+            "p_unique": 1.0,
+            "type": "Numeric",
+            "hashable": true,
+            "value_counts_without_nan": {
+                "269928": 1,
+                "0": 1
+            },
+            "value_counts_index_sorted": {
+                "0": 1,
+                "269928": 1
+            },
+            "ordering": true,
+            "n_missing": 0,
+            "n": 2,
+            "p_missing": 0.0,
+            "count": 2,
+            "memory_size": 144,
+            "n_zeros": 1,
+            "n_negative": 0,
+            "p_negative": 0.0,
+            "n_infinite": 0,
+            "mean": 134964.0,
+            "std": 190867.9192321224,
+            "variance": 36430562592.0,
+            "min": 0,
+            "max": 269928,
+            "kurtosis": NaN,
+            "skewness": NaN,
+            "sum": 269928,
+            "mad": 134964.0,
+            "range": 269928,
+            "5%": 13496.400000000001,
+            "25%": 67482.0,
+            "50%": 134964.0,
+            "75%": 202446.0,
+            "95%": 256431.59999999998,
+            "iqr": 134964.0,
+            "cv": 1.414213562373095,
+            "p_zeros": 0.5,
+            "p_infinite": 0.0,
+            "monotonic_increase": false,
+            "monotonic_decrease": true,
+            "monotonic_increase_strict": false,
+            "monotonic_decrease_strict": true,
+            "monotonic": -2,
+            "histogram": {
+                "counts": [
+                    1,
+                    1
+                ],
+                "bin_edges": [
+                    0.0,
+                    134964.0,
+                    269928.0
+                ]
+            }
+        }
+    },
+    "scatter": {},
+    "correlations": {},
+    "missing": {},
+    "messages": [
+        "[CONSTANT] warning on column ADDRESS",
+        "[CONSTANT] warning on column CITY",
+        "[CONSTANT] warning on column STATE_HEADQUARTERED",
+        "[CONSTANT] warning on column ZIP",
+        "[CONSTANT] warning on column PHONE",
+        "[CONSTANT] warning on column AMOUNT_UNCOVERED",
+        "[CONSTANT] warning on column REVENUE",
+        "[CONSTANT] warning on column UNCOVERED_ENCOUNTERS",
+        "[CONSTANT] warning on column UNCOVERED_MEDICATIONS",
+        "[CONSTANT] warning on column UNCOVERED_PROCEDURES",
+        "[CONSTANT] warning on column UNCOVERED_IMMUNIZATIONS",
+        "[CONSTANT] warning on column QOLS_AVG",
+        "[MISSING] warning on column ADDRESS",
+        "[MISSING] warning on column CITY",
+        "[MISSING] warning on column STATE_HEADQUARTERED",
+        "[MISSING] warning on column ZIP",
+        "[MISSING] warning on column PHONE",
+        "[MISSING] warning on column QOLS_AVG",
+        "[REJECTED] warning on column ADDRESS",
+        "[REJECTED] warning on column CITY",
+        "[REJECTED] warning on column STATE_HEADQUARTERED",
+        "[REJECTED] warning on column ZIP",
+        "[REJECTED] warning on column PHONE",
+        "[REJECTED] warning on column AMOUNT_UNCOVERED",
+        "[REJECTED] warning on column REVENUE",
+        "[REJECTED] warning on column UNCOVERED_ENCOUNTERS",
+        "[REJECTED] warning on column UNCOVERED_MEDICATIONS",
+        "[REJECTED] warning on column UNCOVERED_PROCEDURES",
+        "[REJECTED] warning on column UNCOVERED_IMMUNIZATIONS",
+        "[REJECTED] warning on column QOLS_AVG",
+        "[UNIQUE] warning on column Id",
+        "[UNIQUE] warning on column NAME",
+        "[UNIQUE] warning on column AMOUNT_COVERED",
+        "[UNIQUE] warning on column COVERED_ENCOUNTERS",
+        "[UNIQUE] warning on column COVERED_MEDICATIONS",
+        "[UNIQUE] warning on column COVERED_PROCEDURES",
+        "[UNIQUE] warning on column COVERED_IMMUNIZATIONS",
+        "[UNIQUE] warning on column UNIQUE_CUSTOMERS",
+        "[UNIQUE] warning on column MEMBER_MONTHS",
+        "[ZEROS] warning on column AMOUNT_COVERED",
+        "[ZEROS] warning on column AMOUNT_UNCOVERED",
+        "[ZEROS] warning on column REVENUE",
+        "[ZEROS] warning on column COVERED_ENCOUNTERS",
+        "[ZEROS] warning on column UNCOVERED_ENCOUNTERS",
+        "[ZEROS] warning on column COVERED_MEDICATIONS",
+        "[ZEROS] warning on column UNCOVERED_MEDICATIONS",
+        "[ZEROS] warning on column COVERED_PROCEDURES",
+        "[ZEROS] warning on column UNCOVERED_PROCEDURES",
+        "[ZEROS] warning on column COVERED_IMMUNIZATIONS",
+        "[ZEROS] warning on column UNCOVERED_IMMUNIZATIONS",
+        "[ZEROS] warning on column UNIQUE_CUSTOMERS",
+        "[ZEROS] warning on column MEMBER_MONTHS"
+    ],
+    "package": {
+        "pandas_profiling_version": "3.0.0",
+        "pandas_profiling_config": "{\"title\": \"payers.csv\", \"dataset\": {\"description\": \"\", \"creator\": \"\", \"author\": \"\", \"copyright_holder\": \"\", \"copyright_year\": \"\", \"url\": \"\"}, \"variables\": {\"descriptions\": {}}, \"infer_dtypes\": false, \"show_variable_description\": true, \"pool_size\": 0, \"progress_bar\": true, \"vars\": {\"num\": {\"quantiles\": [0.05, 0.25, 0.5, 0.75, 0.95], \"skewness_threshold\": 20, \"low_categorical_threshold\": 5, \"chi_squared_threshold\": 0.0}, \"cat\": {\"length\": false, \"characters\": false, \"words\": false, \"cardinality_threshold\": 50, \"n_obs\": 5, \"chi_squared_threshold\": 0.0, \"coerce_str_to_date\": false, \"redact\": false, \"histogram_largest\": 10}, \"image\": {\"active\": false, \"exif\": false, \"hash\": false}, \"bool\": {\"n_obs\": 3, \"mappings\": {\"t\": true, \"f\": false, \"True\": true, \"False\": false, \"y\": true, \"n\": false}}, \"path\": {\"active\": false}, \"file\": {\"active\": false}, \"url\": {\"active\": false}}, \"sort\": null, \"missing_diagrams\": {\"bar\": false, \"matrix\": false, \"heatmap\": false, \"dendrogram\": false}, \"correlations\": {\"pearson\": {\"key\": \"\", \"calculate\": false, \"warn_high_correlations\": 1, \"threshold\": 0.9}, \"spearman\": {\"key\": \"\", \"calculate\": false, \"warn_high_correlations\": 0, \"threshold\": 0.9}, \"kendall\": {\"key\": \"\", \"calculate\": false, \"warn_high_correlations\": 0, \"threshold\": 0.9}, \"phi_k\": {\"key\": \"\", \"calculate\": false, \"warn_high_correlations\": 0, \"threshold\": 0.9}, \"cramers\": {\"key\": \"\", \"calculate\": false, \"warn_high_correlations\": 1, \"threshold\": 0.9}}, \"interactions\": {\"continuous\": false, \"targets\": []}, \"categorical_maximum_correlation_distinct\": 100, \"memory_deep\": false, \"plot\": {\"missing\": {\"force_labels\": true, \"cmap\": \"RdBu\"}, \"image_format\": \"svg\", \"correlation\": {\"cmap\": \"RdBu\", \"bad\": \"#000000\"}, \"dpi\": 800, \"histogram\": {\"bins\": 50, \"max_bins\": 250, \"x_axis_labels\": true}, \"scatter_threshold\": 1000, \"pie\": {\"max_unique\": 0}}, \"duplicates\": {\"head\": 0, \"key\": \"# duplicates\"}, \"samples\": {\"head\": 0, \"tail\": 0, \"random\": 0}, \"reject_variables\": true, \"n_obs_unique\": 5, \"n_freq_table_max\": 10, \"n_extreme_obs\": 5, \"report\": {\"precision\": 10}, \"html\": {\"style\": {\"primary_color\": \"#337ab7\", \"logo\": \"\", \"theme\": null}, \"navbar_show\": true, \"minify_html\": true, \"use_local_assets\": true, \"inline\": true, \"assets_prefix\": null, \"assets_path\": null, \"full_width\": false}, \"notebook\": {\"iframe\": {\"height\": \"800px\", \"width\": \"100%\", \"attribute\": \"srcdoc\"}}}"
+    },
+    "sample": [],
+    "duplicates": "None"
+}
