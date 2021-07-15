@@ -1,4 +1,4 @@
-name: collect-datasets
+name: run-pandas-profiling
 
 on:
 #   schedule:
