@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  collect-datasets:
+  run-pandas-profiling:
     runs-on: ubuntu-latest
 
     steps:
