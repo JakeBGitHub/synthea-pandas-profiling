@@ -42,7 +42,7 @@ def generate_pandas_profile(filename):
     #     df = sample_dataframe(src_file, 99999)
 
     if len(df) > 40000:
-        df = sample_dataframe(df, filename, 10000)
+        df = sample_dataframe(df, filename, 1000)
 
 
     print('Generating pandas profile report for file: {}'.format(filename))
